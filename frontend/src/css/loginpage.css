@@ -1,0 +1,122 @@
+/* frontend/src/css/loginpage.css */
+
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f5f5f5;
+}
+
+.login-form {
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 24px;
+
+  background: white;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-form h1 {
+  margin: 0 0 12px;
+
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.login-form input {
+  width: 100%;
+  height: 38px;
+
+  padding: 0 10px;
+
+  font-size: 1rem;
+
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.login-form button {
+  height: 38px;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+}
+
+.login-form button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.login-error {
+  font-size: 0.9rem;
+  text-align: center;
+
+  color: #b00020;
+}
+
+/* Wachtwoordveld. */
+.login-password {
+  position: relative;
+  width: 100%;
+}
+
+.login-password input {
+  padding-right: 42px;
+}
+
+/* Wachtwoord tonen/verbergen. */
+.login-password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+
+  width: 26px;
+  height: 26px;
+
+  padding: 0;
+
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.login-password-toggle img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Titel met logo. */
+.login-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin-bottom: 12px;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.login-title img {
+  width: 32px;
+  height: 32px;
+}

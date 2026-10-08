@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clippath0" transform="scale(0.03 0.03)">
+      <path d="M 4110 0 L 23952 0 L 23952 19842 L 4110 19842 L 4110 0" style="fill: none; clip-rule: nonzero;"/>
+    </clipPath>
+  </defs>
+  <g class="page-1" transform="matrix(0.835781, 0, 0, -0.835781, -101.52594, 500.53476)" style="">
+    <g transform="scale(0.03 0.03)">
+      <path d="M 4110 0 L 23952 0 L 23952 19842 L 4110 19842 L 4110 0" style="fill: none;"/>
+    </g>
+    <g style="clip-path: url(&quot;#clippath0&quot;);">
+      <g transform="scale(0.03 0.03)">
+        <path d="M 14031 17007 L 10799 2834 L 4110 2834Z" style="fill: rgb(164, 36, 74); stroke: rgb(164, 36, 74); stroke-opacity: 1; stroke-miterlimit: 10; stroke-linejoin: miter; stroke-width: 1px; stroke-dashoffset: 0px; fill-opacity: 1;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(&quot;#clippath0&quot;);">
+      <g transform="scale(0.03 0.03)">
+        <path d="M 14031 17007 L 23951 2834 L 10799 2834Z" style="fill: rgb(229, 21, 124); stroke: rgb(229, 21, 124); stroke-opacity: 1; stroke-miterlimit: 10; stroke-linejoin: miter; stroke-width: 1px; stroke-dashoffset: 0px; fill-opacity: 1;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(&quot;#clippath0&quot;);">
+      <g transform="scale(0.03 0.03)">
+        <path d="M 4110 2834 L 14031 17007 L 23951 2834 L 4110 2834" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 14px; stroke-dashoffset: 0px;"/>
+        <path d="M 14031 17007 L 10799 2834" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 14px; stroke-dashoffset: 0px;"/>
+        <path d="M 23951 19841 L 23951 19841" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 14px; stroke-dashoffset: 0px;"/>
+        <path d="M 4110 0 L 4110 0" style="fill: none; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-miterlimit: 0; stroke-linecap: round; stroke-linejoin: round; stroke-width: 14px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>
