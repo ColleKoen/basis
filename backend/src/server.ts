@@ -6,6 +6,7 @@ import express from 'express';
 import authRouter from './routes/auth';
 import pingRouter from './routes/ping';
 import logoutRouter from './routes/logout';
+import futureRouter from './routes/future';
 import sessionRouter from './routes/session';
 
 dotenv.config();
@@ -21,6 +22,7 @@ app.use(express.json());
 app.use('/api/auth', authRouter);
 app.use('/api/ping', pingRouter);
 app.use('/api/logout', logoutRouter);
+app.use('/api/future', futureRouter);
 app.use('/api/session', sessionRouter);
 
 // Server starten.

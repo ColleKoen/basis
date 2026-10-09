@@ -8,83 +8,120 @@
   align-items: center;
   justify-content: center;
 
-  background: #f5f5f5;
+  background: #f6f6f6;
 }
 
 .login-form {
-  width: 320px;
+  width: 260px;
 
   display: flex;
   flex-direction: column;
-  gap: 12px;
 
-  padding: 24px;
+  padding: 20px;
 
-  background: white;
-
-  border: 1px solid #ccc;
   border-radius: 6px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.login-form h1 {
-  margin: 0 0 12px;
 
+/* ===== HEADER ===== */
+
+.login-header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 25px;
+}
+
+.login-logo {
+  width: 100%;
+  height: auto;
+
+  display: block;
+}
+
+.login-title {
+  margin-top: 12px;
+
+  color: #9c1c3d;
+  font-size: 16px;
+  font-weight: bold;
   text-align: center;
-  font-size: 1.4rem;
+}
+
+
+/* ===== INPUTS ===== */
+
+.login-form input,
+.login-form>button {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .login-form input {
-  width: 100%;
-  height: 38px;
-
-  padding: 0 10px;
-
-  font-size: 1rem;
-
-  border: 1px solid #aaa;
-  border-radius: 4px;
+  color: #9c1c3d;
+  background: #f6f6f6;
+  border: 1px solid #ccc;
 }
 
-.login-form button {
-  height: 38px;
+.login-form>input {
+  margin-bottom: 12px;
+}
 
-  font-size: 1rem;
 
+/* ===== LOGIN BUTTON ===== */
+
+.login-form>button {
+  margin-top: 12px;
+
+  color: white;
+  border: none;
+  background: #9c1c3d;
   cursor: pointer;
 }
 
-.login-form button:disabled {
+.login-form>button:hover {
+  background: #7e1530;
+}
+
+.login-form>button:disabled {
   cursor: default;
   opacity: 0.6;
 }
 
-.login-error {
-  font-size: 0.9rem;
-  text-align: center;
 
-  color: #b00020;
-}
+/* ===== PASSWORD ===== */
 
-/* Wachtwoordveld. */
 .login-password {
   position: relative;
+
   width: 100%;
 }
 
 .login-password input {
-  padding-right: 42px;
+  width: 100%;
+
+  padding-right: 36px;
 }
 
-/* Wachtwoord tonen/verbergen. */
 .login-password-toggle {
   position: absolute;
-  top: 50%;
-  right: 8px;
 
-  width: 26px;
-  height: 26px;
+  top: 50%;
+  right: 6px;
+
+  width: 24px;
+  height: 24px;
 
   padding: 0;
+  margin: 0;
 
   transform: translateY(-50%);
 
@@ -99,24 +136,26 @@
 }
 
 .login-password-toggle img {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
+
+  display: block;
+
+  opacity: 0.65;
 }
 
-/* Titel met logo. */
-.login-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-
-  margin-bottom: 12px;
-
-  font-size: 1.4rem;
-  font-weight: bold;
+.login-password-toggle:hover img {
+  opacity: 1;
 }
 
-.login-title img {
-  width: 32px;
-  height: 32px;
+
+/* ===== ERROR ===== */
+
+.login-error {
+  margin-top: 8px;
+
+  color: #b00020;
+
+  font-size: 12px;
+  text-align: center;
 }

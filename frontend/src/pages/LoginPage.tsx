@@ -98,13 +98,16 @@ export default function LoginPage({
         onSubmit={handleLogin}
       >
 
-        <div className="login-title">
+        <div className="login-header">
           <img
-            src="/img/logo.svg"
+            src="/img/alter-expo.png"
             alt="Alter Expo"
+            className="login-logo"
           />
 
-          <span>Login</span>
+          <div className="login-title">
+            basis versie met filemaker.
+          </div>
         </div>
 
         <input

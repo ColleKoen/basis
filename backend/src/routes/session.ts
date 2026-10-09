@@ -6,7 +6,6 @@ import {
   fileMakerAuth
 } from '../middleware/fileMakerAuth';
 
-
 const router = express.Router();
 
 
@@ -22,6 +21,5 @@ router.get(
 
   }
 );
-
 
 export default router;

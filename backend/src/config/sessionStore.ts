@@ -64,3 +64,4 @@ export function deleteSession(
 
   sessions.delete(sessionId);
 }
+
