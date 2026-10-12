@@ -46,7 +46,8 @@ export default function HomePage({ onLogout }: Props) {
       {showMessage && (
         <MessagePopup
           lines={[
-            'Je wordt nu afgemeld.'
+            'Je wordt nu afgemeld.',
+            'Dit is een test popup voor standaard berichten'
           ]}
           cancelText="Sluiten"
           onCancel={() => {
